@@ -19,11 +19,11 @@ Designed for modern Raspberry Pi OS and Debian systems where the legacy LCD-show
 
 ### Simple Status Dashboard
 
-(screenshot)
+![Simple Dashboard](screenshots/simple-status.jpg)
 
 ### OpenClaw Dashboard
 
-(screenshot)
+![OpenClaw Dashboard](screenshots/openclaw-dashboard.jpg)
 
 ## Hardware
 
