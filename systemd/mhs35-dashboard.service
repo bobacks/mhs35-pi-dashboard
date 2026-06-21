@@ -1,0 +1,15 @@
+# /etc/systemd/system/mhs35-status.service
+[Unit]
+Description=MHS35 Status Display
+After=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/boback
+ExecStart=/usr/bin/python3 /home/boback/status_display.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
